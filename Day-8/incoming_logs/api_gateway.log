@@ -1,0 +1,5 @@
+2026-11-04 10:16:00 | INFO | api | 200 | GET /api/v1/health status=healthy latency=12ms
+2026-11-04 10:16:15 | INFO | api | 200 | GET /api/v1/catalog items=45 latency=38ms
+2026-11-04 10:17:02 | ERROR | api | 500 | POST /api/v1/orders DB connection timeout latency=1250ms
+2026-11-04 10:17:45 | WARNING | api | 429 | Rate limit exceeded for client_token=tk_9812 latency=4ms
+2026-11-04 10:19:10 | INFO | api | 200 | GET /api/v1/user/profile latency=24ms

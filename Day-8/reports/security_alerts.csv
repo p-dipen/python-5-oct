@@ -1,0 +1,5 @@
+Timestamp,Service,Level,StatusCode,SourceFile,Message
+2026-11-04 10:17:02,api,ERROR,500,api_gateway.log,"POST /api/v1/orders DB connection timeout latency=1250ms"
+2026-11-04 10:15:31,auth,CRITICAL,403,auth_service.log,"Multiple failed attempts! IP 203.0.113.19 blacklisted"
+2026-11-04 10:17:01,db,ERROR,500,database.log,"Deadlock detected on table 'orders' during transaction tx_4021"
+2026-11-04 10:17:03,db,CRITICAL,503,database.log,"Connection pool exhausted! 0 of 20 available"

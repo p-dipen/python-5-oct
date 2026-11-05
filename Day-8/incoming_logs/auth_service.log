@@ -1,0 +1,5 @@
+2026-11-04 10:14:02 | INFO | auth | 200 | User 'alex' logged in successfully from 192.168.1.45
+2026-11-04 10:15:23 | WARNING | auth | 401 | Failed login attempt for 'admin' from 203.0.113.19
+2026-11-04 10:15:27 | WARNING | auth | 401 | Failed login attempt for 'admin' from 203.0.113.19
+2026-11-04 10:15:31 | CRITICAL | auth | 403 | Multiple failed attempts! IP 203.0.113.19 blacklisted
+2026-11-04 10:18:40 | INFO | auth | 200 | User 'maria' logged in successfully from 192.168.1.88

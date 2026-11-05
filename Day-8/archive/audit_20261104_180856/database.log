@@ -1,0 +1,4 @@
+2026-11-04 10:12:00 | INFO | db | 200 | Database pool initialized with 20 connections
+2026-11-04 10:17:01 | ERROR | db | 500 | Deadlock detected on table 'orders' during transaction tx_4021
+2026-11-04 10:17:03 | CRITICAL | db | 503 | Connection pool exhausted! 0 of 20 available
+2026-11-04 10:17:30 | INFO | db | 200 | Connection pool auto-recovery completed
